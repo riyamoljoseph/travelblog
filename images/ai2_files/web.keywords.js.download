@@ -1,0 +1,5 @@
+
+        window.$adManagementConfig = window.$adManagementConfig || {};
+        window.$adManagementConfig.web = window.$adManagementConfig.web || {};
+        window.$adManagementConfig.web.keywords = {"status":"PROCESSED","sales_kw":"aileen,lifestyle,travel blog,travel guide,resource,tip,philippines,video,world","sales_cat":"653","sales_safety":"GGT0","sales_segment":"GumGum Verity Seasonal - Memorial Day,GumGum Verity Seasonal - Thanksgiving/Bl,GumGum Verity Seasonal - Christmas,GumGum Verity Seasonal - 4th of July,GumGum Verity Seasonal - Labor Day"};
+      

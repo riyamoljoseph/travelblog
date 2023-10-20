@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Yatra One', cursive;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.col {
+    flex: 1;
+    min-width: 0; /* Prevent overflowing content */
+}
+
+.col1 {
+    display: flex;
+    margin-left: 50px;
+}
+
+h2 {
+    padding-left: 400px;
+}
+
+.h2{
+    padding-right: 500px;
+
+}
+.head {
+    display: flex;
+}
+
+.navb {
+    position: sticky;
+    top: 0px;
+}
+
+.posts {
+    object-fit: cover;
+}
+
+.guide {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyc1i7nPHP0VR2FbwQ029x3VGSdJYPZZuLbaR4zvYOokhicH4DrGglSR9_bJybBOmcrmQ&usqp=CAU");
+}
+
+.p {
+    justify-content: space-evenly;
+    border-radius: 10%;
+}
+
+.pop {
+    margin-left: 220px;
+}
+
+.p2 {
+    padding-left: 0;
+    justify-items: center;
+    background-color: black;
+}
+
+.he {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyc1i7nPHP0VR2FbwQ029x3VGSdJYPZZuLbaR4zvYOokhicH4DrGglSR9_bJybBOmcrmQ&usqp=CAU");
+    text-align: left;
+    padding: 20px;
+    padding-left: 100px;
+}
+
+.hr {
+    color: rgb(199, 33, 33);
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+.time {
+    margin-left: 220px;
+}
+
+.bt {
+    font-family: cursive;
+    background-color: rgb(216, 82, 88);
+    width: 350px;
+    border-radius: 50%;
+}
+
+.ft {
+    display: flex;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .col {
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+    }
+
+    h2 {
+        padding-left: 0;
+    }
+
+    .navb {
+        position: relative;
+    }
+}
+
+@media (max-width: 480px) {
+    .col1 {
+        margin-left: 0;
+    }
+
+    .pop {
+        margin-left: 0;
+    }
+
+    .p2 {
+        padding-left: 0;
+    }
+
+    .hr {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .time {
+        margin-left: 10px;
+    }
+}
